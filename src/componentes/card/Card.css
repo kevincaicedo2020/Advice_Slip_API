@@ -1,0 +1,58 @@
+.tarjeta{
+    background-color: #313A49;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.tarjeta-titulo{
+    color: #52FFA8;
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+.frase_api{
+    font-family: 'Manrope', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 10px 0;
+}
+.separador{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+    justify-content: center;
+}
+.vertical{
+    height: 25px;
+    width: 20px;
+    background-color: #C0D3DA;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+hr{
+    border: 0;
+    height: 1px;
+    width: 100px;
+    background-color: #C0D3DA;
+}
+.button_frase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #52ffa8;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+.button_frase:hover{
+    box-shadow: 0 0 40px #52ffa8;
+}
